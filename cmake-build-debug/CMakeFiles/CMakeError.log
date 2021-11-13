@@ -1,0 +1,76 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ed83/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2ed83.dir/build.make CMakeFiles/cmTC_2ed83.dir/build
+Building CXX object CMakeFiles/cmTC_2ed83.dir/test_mpi.cpp.o
+/usr/bin/clang++  -isystem /usr/local/Cellar/open-mpi/4.1.1_2/include -Wall -pedantic -lm -O3 -funroll-loops -fopenmp  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_2ed83.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_2ed83.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_2ed83.dir/test_mpi.cpp.o -c /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_2ed83.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_2ed83/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5aae8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5aae8.dir/build.make CMakeFiles/cmTC_5aae8.dir/build
+Building CXX object CMakeFiles/cmTC_5aae8.dir/test_mpi.cpp.o
+/usr/bin/clang++  -isystem /usr/local/Cellar/open-mpi/4.1.1_2/include -Wall -pedantic -lm -O3 -funroll-loops -fopenmp  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_5aae8.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_5aae8.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_5aae8.dir/test_mpi.cpp.o -c /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_5aae8.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_5aae8/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_143fb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_143fb.dir/build.make CMakeFiles/cmTC_143fb.dir/build
+Building CXX object CMakeFiles/cmTC_143fb.dir/test_mpi.cpp.o
+/usr/bin/clang++  -isystem /usr/local/Cellar/open-mpi/4.1.1_2/include -Wall -pedantic -lm -O3 -funroll-loops -fopenmp  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_143fb.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_143fb.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_143fb.dir/test_mpi.cpp.o -c /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_143fb.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_143fb/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7467a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7467a.dir/build.make CMakeFiles/cmTC_7467a.dir/build
+Building CXX object CMakeFiles/cmTC_7467a.dir/test_mpi.cpp.o
+/usr/bin/clang++  -isystem /usr/local/Cellar/open-mpi/4.1.1_2/include -Wall -pedantic -lm -O3 -funroll-loops -fopenmp  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_7467a.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_7467a.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_7467a.dir/test_mpi.cpp.o -c /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_7467a.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_7467a/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_697f8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_697f8.dir/build.make CMakeFiles/cmTC_697f8.dir/build
+Building CXX object CMakeFiles/cmTC_697f8.dir/test_mpi.cpp.o
+/usr/bin/clang++  -isystem /usr/local/Cellar/open-mpi/4.1.1_2/include -Wall -pedantic -lm -O3 -funroll-loops -fopenmp  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_697f8.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_697f8.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_697f8.dir/test_mpi.cpp.o -c /Users/evgeniisamarin/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_697f8.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_697f8/fast] Error 2
+
+
+

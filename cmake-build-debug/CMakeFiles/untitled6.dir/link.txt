@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/Cellar/libevent/2.1.12/lib CMakeFiles/untitled6.dir/main.cpp.o -o untitled6  /usr/local/Cellar/open-mpi/4.1.1_2/lib/libmpi.dylib 
